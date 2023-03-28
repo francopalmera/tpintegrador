@@ -72,7 +72,7 @@ public class ListaEquipos {
         int fila = 0;
        
         try { 
-            Scanner sc = new Scanner(new File("https://drive.google.com/file/d/1vo-IOw5-OT1icyrm_ETTBxR9hLwK_fvg/view?usp=sharing"));
+            Scanner sc = new Scanner(new File("./csv/equipos.csv"));
             sc.useDelimiter("\n");   //setea el separador de los datos
                 
             while (sc.hasNext()) {

@@ -94,7 +94,7 @@ public class ListaParticipantes {
         int fila = 0;
        
         try { 
-            Scanner sc = new Scanner(new File("https://drive.google.com/file/d/1eTqFlAsizfv97_C4V41wlxiuKmXUPWQV/view?usp=sharing"));
+            Scanner sc = new Scanner(new File("./csv/participantes.csv"));
             sc.useDelimiter("\n");   //setea el separador de los datos
                 
             while (sc.hasNext()) {

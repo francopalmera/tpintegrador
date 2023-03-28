@@ -74,7 +74,7 @@ public class ListaPartidos {
         int fila = 0;
        
         try { 
-            Scanner sc = new Scanner(new File("https://drive.google.com/file/d/1I9jvqZlAsQqu2hi-pmv-BavUJTYi5s8U/view?usp=sharing"));
+            Scanner sc = new Scanner(new File("./csv/partidos.csv"));
             sc.useDelimiter("\n");   //setea el separador de los datos
                 
             while (sc.hasNext()) {

@@ -76,7 +76,7 @@ public class  ListaPronosticos {
         int fila = 0;
        
         try { 
-            Scanner sc = new Scanner(new File("https://drive.google.com/file/d/1DtwekEnshVxpCCz-N7ummdMQAO1kfH4S/view?usp=sharing"));
+            Scanner sc = new Scanner(new File("./csv/pronosticos.csv"));
             sc.useDelimiter("\n");   //setea el separador de los datos
                 
             while (sc.hasNext()) {
